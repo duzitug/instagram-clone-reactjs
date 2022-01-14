@@ -5,7 +5,7 @@ export const defaultUser = {
   username: "username",
   name: "name",
   profile_image:
-    "https://reedbarger.nyc3.digitaloceanspaces.com/reactbootcamp/avatar.png"
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
 };
 
 export function getDefaultUser() {
@@ -14,7 +14,7 @@ export function getDefaultUser() {
     username: "username",
     name: "name",
     profile_image:
-      "https://reedbarger.nyc3.digitaloceanspaces.com/reactbootcamp/avatar.png"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
   };
 }
 
@@ -24,7 +24,7 @@ export const defaultPost = {
   caption: `<span class="">Do you know the 10 JavaScript concepts you need to learn React? 🤔⚛️👇<br>•<br>•<br>👉 Get the FREE cheatsheet to learn them now: bit.ly/10-js-tips 🔥</span>`,
   user: defaultUser,
   media:
-    "https://reedbarger.nyc3.digitaloceanspaces.com/reactbootcamp/post.jpeg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
   comments: [],
   created_at: "2020-02-28T03:08:14.522421+00:00"
 };
@@ -36,7 +36,7 @@ export function getDefaultPost() {
     caption: `<span class="">Do you know the 10 JavaScript concepts you need to learn React? 🤔⚛️👇<br>•<br>•<br>👉 Get the FREE cheatsheet to learn them now: bit.ly/10-js-tips 🔥</span>`,
     user: defaultUser,
     media:
-      "https://reedbarger.nyc3.digitaloceanspaces.com/reactbootcamp/post.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
     comments: [],
     created_at: "2020-02-28T03:08:14.522421+00:00"
   };
@@ -63,7 +63,7 @@ export const defaultCurrentUser = {
   username: "me",
   name: "myself",
   profile_image:
-    "https://reedbarger.nyc3.digitaloceanspaces.com/reactbootcamp/avatar.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
   website: "https://reactbootcamp.com",
   email: "me@gmail.com",
   bio: "This is my bio",
